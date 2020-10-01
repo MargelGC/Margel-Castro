@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV M.Castro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="banner" id="sec">
+      <header>
+        <a href="#" class="logo">Logo</a>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>
+          Hola Mundo, <br />
+          Soy <span>Margel Castro</span>
+        </h2>
+        <p>
+          Me defino como un autodidácta, amante de la tecnologia que abarca el
+          developer Front-End mi experiencia y conocimiento adquirido lo
+          construi a base de libros y cursos online en diferentes plataformas
+          educativas, como Platzi, Udemy y Doméstika. Me llena de entusiasmo el
+          emprender nuevos proyectos con tecnologias como HTML5, CSS3,
+          JavaScript, React.js, Angular. Actualmente sigo aprendiendo e
+          implementando nuevas tecnologias para darme mayor y mejor
+          sostenibilidad a los proyectos de mis clientes, siempre en la rama
+          Front-End.
+        </p>
+        <a href="#">Conoceme más</a>
+      </div>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="assets/images/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="assets/images/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="assets/images/linkedin.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portafolio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contáctame</a></li>
+      </ul>
+    </div>
+    <script type="text/javascript">
+      function toggle() {
+        var sec = document.getElementById("sec");
+        var nav = document.getElementById("navigation");
+        sec.classList.toggle("active");
+        nav.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
