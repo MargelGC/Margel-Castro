@@ -38,6 +38,7 @@
   header #header-info-bar {
     width: 40% !important;
     left: 60% !important;
+    background-color: transparent;
   }
   /*------padding--------*/
   .padding-style1 {
