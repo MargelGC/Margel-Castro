@@ -124,7 +124,7 @@
 }
 .fa-flip-horizontal {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  transform: scaleX(-1);
+  transform: scaleX(-1);clear: ;
 }
 .fa-flip-vertical {
   transform: scaleY(-1);
